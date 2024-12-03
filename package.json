@@ -1,12 +1,13 @@
 {
-  "homepage": "https://muqeemishtiaq.github.io/Weather-React",
+  "homepage": "https://muqeemishtiaq.github.io/Weather-react/",
   "name": "weather-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "scripts": {
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
